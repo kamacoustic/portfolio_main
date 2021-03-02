@@ -1,0 +1,34 @@
+{
+  "name": "portfolio-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "aes-decrypter": "^3.1.0",
+    "animejs": "^3.2.1",
+    "dom-walk": "^0.1.2",
+    "global": "^4.3.2",
+    "individual": "^2.0.0",
+    "is-function": "^1.0.2",
+    "keycode": "^2.2.0",
+    "m3u8-parser": "^4.5.0",
+    "min-document": "^2.19.0",
+    "mpd-parser": "^0.15.0",
+    "mux.js": "^5.8.0",
+    "pkcs7": "^1.0.4",
+    "process": "^0.5.2",
+    "regenerator-runtime": "^0.13.7",
+    "rust-result": "^1.0.0",
+    "safe-json-parse": "^4.0.0",
+    "url-toolkit": "^2.2.1",
+    "validator": "^13.5.2",
+    "videojs-font": "^3.2.0",
+    "videojs-vtt.js": "^0.15.2",
+    "xmldom": "^0.1.31"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

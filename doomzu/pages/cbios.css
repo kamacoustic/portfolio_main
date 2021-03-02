@@ -1,0 +1,309 @@
+body {
+	background-color:black;
+  color:goldenrod;
+  text-align: center;
+}
+
+ h1  {
+	font-family: 'IM Fell DW Pica SC';
+	border: 3px solid goldenrod;
+	padding: 10px;
+	
+}
+
+h2, h3{
+  font-family: 'IM Fell DW Pica SC';
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+
+
+
+
+a{
+	text-decoration: none;
+}
+
+.button {
+  font-family: 'IM Fell DW Pica SC';
+  text-decoration: none;
+  border: 1px solid goldenrod; 
+  background-color: white;
+  color: #696969;
+  border-radius: 15%;
+}
+
+
+
+
+a:link {
+	color: goldenrod;
+}
+
+
+
+a:hover {
+	color:gold
+}
+
+a:active {
+	color:red
+}
+
+#cArea{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.nav {
+	font-family: 'IM Fell DW Pica SC';
+	font-size: 200%;
+	padding: 20px;
+	border: 3px solid goldenrod;
+	text-decoration: none;
+	color: goldenrod	
+}
+
+
+
+
+.character{
+  filter: blur(5px);
+  align-items: center;
+}
+
+.character:hover{
+    filter: none;
+    cursor: pointer;
+}
+
+p {
+	font-family:'IM Fell DW Pica SC';
+	font-style: italic;	
+}
+
+
+
+
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+    position: relative;
+    width: 400px;
+    height: 700px;
+    float: left;
+    margin-top: 100px;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  
+}
+
+.fade-in2 {
+  animation: fadeIn ease 13s;
+  -webkit-animation: fadeIn ease 13s;
+  -moz-animation: fadeIn ease 13s;
+  -o-animation: fadeIn ease 13s;
+  -ms-animation: fadeIn ease 13s;
+  margin-top: 100px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
+}
+
+.fade-in3 {
+  animation: fadeIn ease 14s;
+  -webkit-animation: fadeIn ease 14s;
+  -moz-animation: fadeIn ease 14s;
+  -o-animation: fadeIn ease 14s;
+  -ms-animation: fadeIn ease 14s;
+  position: relative;
+  margin-top: 50px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+
+}
+
+.fade-out {
+  animation: fadeOut ease 1s;
+  -webkit-animation: fadeOut ease 1s;
+  -webkit-animation-fill-mode: both; 
+  -moz-animation: fadeOut ease 1s;
+  -o-animation: fadeOut ease 1s;
+  -ms-animation: fadeOut ease 1s;
+  display: none;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+}
+}
