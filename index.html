@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Mojo Works Inc. </title>
     <link rel="stylesheet" href="pages/pstyle.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -89,6 +89,15 @@
         </div>
         <br>
         <br>
+
+        <div class="gallery">
+            <a target="_blank" href="http://mojica-weather-application.herokuapp.com">
+              <img src="images/h_n.png" alt="h_n">
+            </a>
+            <div class="desc"> A nifty weather app that utilzes Node, Express, Handlebars, and two API's to bring you the current weather conditions
+                based on whichever major city lies near. 
+            </div>
+        </div>
     
 
     <!-- Contact Section -->
@@ -109,12 +118,16 @@
                 <p>I will respond as soon as I am able! Thank you!</p>
                 <form class="modal-form">
                     <div>
-                        <label for="name">Name</label>
+                        <label for="name">Name or Company</label>
                         <input class="form-input" type="text" id="name" placeholder="Enter Name">
                     </div>
                     <div>
-                        <label for="email">Email</label>
+                        <label for="email">Best Contact Email</label>
                         <input class="form-input" type="email" id="email" placeholder="Enter Email">
+                    </div>
+                    <div>
+                        <textarea name="message" placeholder="Type Message Here"></textarea>
+                        <!-- <input class="form-input" type="text" id="message" placeholder="Type Message Here"> -->
                     </div>
                     
                     <input id="modal-submit" class="submit-btn" type="button" value="Submit">
@@ -123,9 +136,15 @@
         </div>
     </div>
 
+    <footer>
+
+        <h2>Created by The Mojo Works</h2>
+        <img src="images/logo.jpg" alt="logo">
+    </footer>
+
     
-    <script src="scripts/anime.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- <script src="scripts/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> -->
     <script src="scripts/script.js"></script>
 </body>
 </html>

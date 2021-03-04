@@ -62,6 +62,7 @@ open.addEventListener('click', () => modal.classList.add('show-modal'))
 // Hide modal on outside click
 window.addEventListener('click', (e) => e.target == modal ? modal.classList.remove('show-modal') : false)
 
+// Show "email sent" message and send email 
 submit.addEventListener('click', () => {
   submit.remove()
 

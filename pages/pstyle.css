@@ -12,6 +12,7 @@ body {
   font-family: 'Nunito', sans-serif;
   color: azure;
   background-color: mediumseagreen;
+  justify-content: center;
 }
 
 section {
@@ -94,10 +95,7 @@ nav a:hover::before {
 
 
 
-/* Home Section */
-/* .title-group {
-  text-align: center;
-} */
+
 
 #home_video_bg {
   position: absolute;
@@ -118,21 +116,7 @@ nav a:hover::before {
   width: auto;
 }
 
-.image-container {
-  border: 1px solid var(--secondary-color);
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin-right: 25px;
-  width: auto;
-  background: var(--background);
-  box-shadow: var(--box-shadow);
-}
 
-img {
-  height: 300px;
-  width: 300px;
-  border-radius: 75%;
-}
 
 
 /* Works Section */
@@ -140,7 +124,6 @@ div.gallery {
   margin: 5px;
   border: 3px solid #ccc;
   border-radius: 50px 50px 50px 50px;
-  float: left;
   width: 50%;
 }
 
@@ -151,7 +134,7 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
-  border-radius: 50px;
+  border-radius: 43px;
 }
 
 div.desc {
@@ -244,7 +227,27 @@ button:focus {
   width: 100%;
 }
 
+textarea {
+  width: 368px;
+  height: 152px;
+  padding: auto;
+  resize: none;
+}
 
+/* Footer Section */
+
+footer {
+  border-top: 1px solid azure;
+  display: flex;
+}
+
+footer img {
+  border-radius: 75%;
+  width: 80px;
+  height: auto;
+  float: right;
+  margin-left: 5px;
+}
 
 @keyframes modalopen {
   from {
