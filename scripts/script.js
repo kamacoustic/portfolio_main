@@ -49,7 +49,7 @@ const open = document.getElementById('open')
 const modal = document.getElementById('modal')
 const submit = document.getElementById('modal-submit')
 const modalBox = document.getElementById('modal-box')
-const submitConfirm = document.createElement('p')
+//const submitConfirm = document.createElement('p')
 
 
 
@@ -63,7 +63,7 @@ open.addEventListener('click', () => modal.classList.add('show-modal'))
 window.addEventListener('click', (e) => e.target == modal ? modal.classList.remove('show-modal') : false)
 
 // Show "email sent" message and send email 
-submit.addEventListener('click', () => {
+/*submit.addEventListener('click', () => {
   submit.remove()
 
   submitConfirm.innerHTML = "Email Sent!"
@@ -73,4 +73,4 @@ submit.addEventListener('click', () => {
 
   // document.appendChild()
 
-})
+})*/

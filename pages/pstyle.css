@@ -22,6 +22,7 @@ section {
   align-items: center;
   flex-direction: column;
   margin: auto;
+  min-width: min-content;
 }
 
 h1 {
@@ -95,19 +96,28 @@ nav a:hover::before {
 
 
 
+/* Home section */
 
+#home {
+  margin-bottom: 15em;
+  position: relative;
+  height:300px;
+  width:100%;
+  overflow: hidden;
+}
 
-#home_video_bg {
-  position: absolute;
+#home #home_video_bg {
+   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  min-width: 100%; 
   min-height: 100%;
-  height:auto;
-  width:auto;
+  overflow: hidden; 
   z-index: -100;
   opacity: 75%;
 }
+
+
 
 
 /* About Section */
@@ -148,7 +158,7 @@ div.desc {
 
 /* Contact Section */
 
-button, input[type='button'] {
+.submit-btn[type='submit'] {
   background-color: forestgreen;
   border: 0;
   border-radius: 5px;
@@ -166,6 +176,9 @@ button:focus {
   background-color: forestgreen;
   font-family: 'Nunito', sans-serif;
   letter-spacing: 0.1em;
+  color: #fff;
+  border-radius: 5px;
+  border: 0;
 }
 .modal-container {
   background-color: rgba(200, 200, 200, 0.6);
@@ -234,15 +247,17 @@ textarea {
   resize: none;
 }
 
+
+
 /* Footer Section */
 
 footer {
   border-top: 1px solid azure;
+  padding: 10px;
   display: flex;
 }
 
 footer img {
-  border-radius: 75%;
   width: 80px;
   height: auto;
   float: right;
@@ -259,3 +274,23 @@ footer img {
   }
 }
 
+@media only screen and (max-width: 600px){
+
+  body {
+   margin: auto;
+   justify-content: center;
+  }
+
+  /* #home_video_bg {
+    width: fit-content;
+  } */
+
+  h2 {
+    margin: 1em;
+  }
+
+  footer {
+    width: auto;
+  }
+
+}
