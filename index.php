@@ -42,8 +42,11 @@
                 to provide the best solutions possible!
             </p>
             <br>
-            <br>
+            
+            <img src="images/resume_2020.jpg" alt="resume">
 
+
+            
             
             <p> In my spare time, I enjoy spending time with family and friends, playing music, losing myself
                 in either a good book or a good video game or questioning whether or not we live in a simulation
