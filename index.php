@@ -43,7 +43,7 @@
             </p>
             <br>
             
-            <img src="images/resume_2020.jpg" alt="resume">
+            
 
 
             
