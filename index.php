@@ -121,6 +121,15 @@
 	<?php
 		}
 	?>
+
+        <div class="icon_container">
+            <a target="_blank" href="https://github.com/kamacoustic/portfolio_main" class="icon">
+            <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/themojoworksinc/" class="icon">
+            <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
         
         
     </section>

@@ -1,6 +1,7 @@
 // const anime = require("anime.min.js")
 
 
+
 // // Wrap every letter in a span
 // var textWrapper = document.querySelector(".ml12");
 // textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -74,3 +75,4 @@ window.addEventListener('click', (e) => e.target == modal ? modal.classList.remo
   // document.appendChild()
 
 })*/
+
