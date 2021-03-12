@@ -68,7 +68,7 @@
         <h2>Here are some examples of what I've created lately. . .</h2>
         <div class="gallery">
             <a target="_blank" href="joke_teller_bot/index.html">
-              <img src="images/joke_teller_bot.png" alt="joke_teller">
+              <img src="images/joke_teller_bot.jpg" alt="joke_teller">
             </a>
             <div class="desc">J, the joke telling bot! Utilizing two different api's
                 and asynchronous JS to feed jokes and transcribe them into speech, delight yourself with this
@@ -80,7 +80,7 @@
 
         <div class="gallery">
             <a target="_blank" href="../doomzu/index.html">
-              <img src="images/doomzu.png" alt="doomzu">
+              <img src="images/doomzu.jpg" alt="doomzu">
             </a>
             <div class="desc">A time capsule of sorts for my friends and I D&D campaign! 
                 This was built from scratch utilzing HTML5, CSS, and Javascript. No, I did
@@ -93,7 +93,7 @@
 
         <div class="gallery">
             <a target="_blank" href="just_breathe/breatheindex.html">
-              <img src="images/just_breathe.png" alt="breathe">
+              <img src="images/just_breathe.jpg" alt="breathe">
             </a>
             <div class="desc"> A simple yet powerful little display of CSS animation and time based
                 Javascript! 
@@ -104,7 +104,7 @@
 
         <div class="gallery">
             <a target="_blank" href="http://mojica-weather-application.herokuapp.com">
-              <img src="images/h_n.png" alt="h_n">
+              <img src="images/h_n.jpg" alt="h_n">
             </a>
             <div class="desc"> A nifty weather app that utilzes Node, Express, Handlebars, and two API's to bring you the current weather conditions
                 based on whichever major city lies near. 
