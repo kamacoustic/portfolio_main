@@ -7,6 +7,7 @@
     "animejs": "^3.2.1",
     "dom-walk": "^0.1.2",
     "global": "^4.3.2",
+    "hover.css": "^2.3.2",
     "individual": "^2.0.0",
     "is-function": "^1.0.2",
     "keycode": "^2.2.0",
@@ -30,5 +31,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamacoustic/portfolio_main.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kamacoustic/portfolio_main/issues"
+  },
+  "homepage": "https://github.com/kamacoustic/portfolio_main#readme",
   "description": ""
 }

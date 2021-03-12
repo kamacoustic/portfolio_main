@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Mojo Works Inc. </title>
+    <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="pages/pstyle.css">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -44,7 +45,14 @@
             </p>
             <br>
             
-            
+            <div id="about_icons">
+                <a href="#" class="hvr-pop">
+                    <i class="fab fa-html5"></i>
+                </a>
+                <a href="#" class="hvr-pop">
+                    <i class="fab fa-css3"></i>
+                </a>
+            </div>
 
 
             
