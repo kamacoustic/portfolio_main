@@ -76,7 +76,20 @@ img{
 outline: none;
 border-color:gold;
 box-shadow: 0 0 20px gold;	
+animation: glow 1s ease-in-out infinite alternate;
+margin-bottom: 1em;
 }
+
+
+@-webkit-keyframes glow {
+	from {
+	  box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
+	}
+	
+	to {
+	  box-shadow: 0 0 20px #ffd700;
+	}
+  }
 
 
  @media only screen and (max-width: 600px){
@@ -105,3 +118,4 @@ aside {
 		
 
 } 
+

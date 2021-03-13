@@ -19,6 +19,8 @@ const chapterSelect = () => {
         return chapterArray.indexOf(chapterSelect) === chapter.chapterNum
         })
 
+        chapterSelect.style.animation = "glow 1s ease-in-out infinite alternate;"
+
         selectedChapter.innerHTML = e.target.innerHTML
         textElement.innerHTML = summaryObjectSearch.chapterSummary
     

@@ -88,6 +88,18 @@ li:hover{
 }
 
 
+@-webkit-keyframes glow {
+	from {
+	  box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700;
+	}
+	
+	to {
+	  box-shadow: 0 0 20px #ffd700;
+	}
+  }
+
+
+
 .fade-in {
     animation: fadeIn ease 10s;
     -webkit-animation: fadeIn ease 10s;
@@ -194,6 +206,7 @@ li:hover{
     opacity:0;
 }
 }
+
 
 @media only screen and (max-width: 600px){
 
