@@ -45,34 +45,22 @@
 // }
 
 
-// const close = document.getElementById('close')
+// Select and initilize dom elements
 const open = document.getElementById('open')
 const modal = document.getElementById('modal')
 const submit = document.getElementById('modal-submit')
 const modalBox = document.getElementById('modal-box')
-//const submitConfirm = document.createElement('p')
+
 
 
 
 // Show modal
 open.addEventListener('click', () => modal.classList.add('show-modal'))
 
-// // Hide modal
-// close.addEventListener('click', () => modal.classList.remove('show-modal'))
+
 
 // Hide modal on outside click
 window.addEventListener('click', (e) => e.target == modal ? modal.classList.remove('show-modal') : false)
 
-// Show "email sent" message and send email 
-/*submit.addEventListener('click', () => {
-  submit.remove()
 
-  submitConfirm.innerHTML = "Email Sent!"
-  modalBox.appendChild(submitConfirm)
-
-
-
-  // document.appendChild()
-
-})*/
 

@@ -22,7 +22,7 @@
     <nav id="nav">
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#Works">Works</a>
+        <a href="#works">Works</a>
         <a href="#contact">Contact</a>
     </nav>
 
@@ -63,7 +63,7 @@
     
     </section>
     <!-- Projects Section -->
-    <section id="Works">
+    <section id="works">
         <h1>Works</h1>
         <h2>Here are some examples of what I've created lately. . .</h2>
         <div class="gallery">
@@ -110,6 +110,13 @@
                 based on whichever major city lies near. 
             </div>
         </div>
+        <br>
+        <br>
+
+        <h2>Aaaaand of course this landing page itself!</h2>
+        <p>Code is available for viewing at my github! Link to page down below!</p>
+
+    </section>
     
 
     <!-- Contact Section -->
