@@ -52,6 +52,12 @@
                 <a href="#" class="hvr-pop">
                     <i class="fab fa-css3"></i>
                 </a>
+                <a href="#" class="hvr-pop">
+                    <i class="fab fa-js"></i>
+                </a>
+                <a href="#" class="hvr-pop">
+                    <i class="fab fa-node"></i>
+                </a>
             </div>
 
 

@@ -79,7 +79,7 @@ a {
   position: relative;
 }
 
-
+/* Animation for nav link underlines */
 nav a::before {
   color: var(--on-background);
   border-bottom: 3px solid;
@@ -110,6 +110,7 @@ nav a:hover::before {
 
 /* Home section */
 
+/* Styling for the background video */
 #home {
   margin-bottom: 1em;
   position: relative;
@@ -117,6 +118,7 @@ nav a:hover::before {
   width:100%;
   overflow: hidden;
 }
+
 
 #home #home_video_bg {
   position: absolute;
@@ -143,6 +145,7 @@ nav a:hover::before {
 
 }
 
+/* Hover Animation for icons */
 @-webkit-keyframes hvr-pop {
   50% {
     -webkit-transform: scale(1.2);
